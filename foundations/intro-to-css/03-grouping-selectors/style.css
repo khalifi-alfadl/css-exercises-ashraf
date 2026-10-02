@@ -1,1 +1,17 @@
-/* Add CSS Styling */
+.desperate-button,
+.more-desperate-button {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.desperate-button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.more-desperate-button {
+    background: yellow;
+    color: black;
+
+}

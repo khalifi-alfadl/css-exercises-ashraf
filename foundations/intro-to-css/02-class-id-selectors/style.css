@@ -1,1 +1,21 @@
-/* Add CSS Styling */
+.odd-number,
+.cooler-class{
+    background-color: rgb(255, 141, 161);
+    font-family: Verdana, sans-serif;
+    color: black;
+}
+
+.cooler-class {
+    font-size: 24px;
+}
+
+#id-num-1 {
+    color: blue;
+    font-size: 36px;
+}
+
+#id-num-2 {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}

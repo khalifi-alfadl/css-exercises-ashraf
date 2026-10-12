@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   width: 600px;
+  display: flex;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 button {
@@ -23,4 +32,73 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  padding: 15px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  justify-content: center;
+  align-self: center;
+  
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+  gap: 20px;
+  padding: 15px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
 }
